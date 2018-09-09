@@ -1,0 +1,48 @@
+.toolbar{
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.sidenav{
+    position: fixed;
+    width: 150px;
+    background-color: #EFF0F5;
+
+    .logo{
+        margin: 10px auto;
+        display: block;
+    }
+
+    .mat-list{
+        margin: 10px;
+    }
+}
+
+.sidenav-contaner{
+    height: 100%;
+}
+
+.sidenav-content{
+    height: 100vh;
+    background: rgb(0,40,146);
+    background: -moz-linear-gradient(-45deg, rgba(0,40,146,1) 0%, rgba(126,66,218,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(0,40,146,1) 0%,rgba(126,66,218,1) 100%);
+    background: linear-gradient(135deg, rgba(0,40,146,1) 0%,rgba(126,66,218,1) 100%);
+}
+
+.space{
+    flex: 1 1 auto;
+}
+
+ul{
+    margin: 0;
+    li{
+        display: inline;
+        a{
+            padding: 10px;
+            font-size: 14px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}

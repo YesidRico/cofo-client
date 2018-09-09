@@ -1,0 +1,33 @@
+.text-with-back-color{
+    color: #ffffff;
+    padding: 8px;
+    background-color: #263B56;
+}
+
+.text-button{
+    width: 320px;
+    margin: 0 auto;
+    color: #ffffff;
+    span{
+        display: inline-block;
+        padding-bottom: 6px;
+        line-height: 1;
+    }
+}
+
+.text-main{
+    margin-top: 8.5em;
+    margin-left: 5em;
+    color: #ffffff;
+
+    h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 85px;
+        line-height: 0.9;
+
+        span{
+            display: block;
+        }
+    }
+}
