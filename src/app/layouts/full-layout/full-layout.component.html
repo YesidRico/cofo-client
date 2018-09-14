@@ -2,49 +2,23 @@
 
   <mat-sidenav class="sidenav" opened mode="side">
     <img src="assets/img/cofo-logo.svg" height="100" width="100" class="logo" alt="">
-
-    <mat-list role="list">
-      <mat-list-item role="listitem">ABOUT</mat-list-item>
-      <mat-list-item role="listitem">PRODUCTS</mat-list-item>
-      <mat-list-item role="listitem">SERVICES</mat-list-item>
-      <mat-list-item role="listitem">GALLERY</mat-list-item>
-      <mat-list-item role="listitem">BLOG</mat-list-item>
-      <mat-list-item role="listitem">CONTACT</mat-list-item>
-    </mat-list>
-
+    <app-nav-sidenav></app-nav-sidenav>
   </mat-sidenav>
+
   <mat-sidenav-content class="sidenav-content">
+
     <mat-toolbar class="toolbar">
+
       <mat-toolbar-row>
         <span class="space"></span>
-
-        <ul>
-          <li>
-            <a href="#">
-              SHARE </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-phone"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-map-marker-alt"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <i class="fas fa-comment-alt"></i>
-            </a>
-          </li>
-        </ul>
-
+        <app-nav-toolbar></app-nav-toolbar>
       </mat-toolbar-row>
+      
     </mat-toolbar>
 
     <div class="container">
       <router-outlet></router-outlet>
     </div>
+
   </mat-sidenav-content>
 </mat-sidenav-container>

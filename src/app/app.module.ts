@@ -10,6 +10,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
+import { NavSidenavComponent } from './layouts/nav-sidenav/nav-sidenav.component';
+import { NavToolbarComponent } from './layouts/nav-toolbar/nav-toolbar.component';
 
 
 const MATERIAL_MODULES = [
@@ -23,7 +25,9 @@ const MATERIAL_MODULES = [
 @NgModule({
   declarations: [
     AppComponent,
-    FullLayoutComponent
+    FullLayoutComponent,
+    NavSidenavComponent,
+    NavToolbarComponent
   ],
   imports: [
     BrowserModule,
